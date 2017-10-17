@@ -1,0 +1,5 @@
+- hosts: windows
+  vars_files:
+    - /home/sunny.wadehra-cognizant.com/ADsetup/roles/win_ad_install/vars/my_ad_vars.yml
+  roles:
+    - win_ad_install
